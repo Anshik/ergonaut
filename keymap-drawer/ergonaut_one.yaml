@@ -2,7 +2,7 @@ layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
   - {t: ']', h: Gui}
-  - Q
+  - A
   - W
   - E
   - R
