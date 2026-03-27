@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ↹, h: Gui}
+  - {t: ↹, h: NUM}
   - Q
   - W
   - E
@@ -36,10 +36,10 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: LEFT ALT, h: NUM}
+  - {t: \, h: Ctrl}
+  - LEFT ALT
   - {t: ␣, h: SYM}
-  - {t: ⏎, h: SYM}
+  - {t: ⏎, h: NUM}
   - {t: ␣, h: SYM}
   - {t: ␣, h: NUM}
   - BACKSPACE
@@ -87,7 +87,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   NUM:
-  - ''
+  - {type: held}
   - ''
   - ''
   - Vol Up
@@ -123,14 +123,14 @@ layers:
   - CAPSLOCK
   - ''
   - Alt
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJ:
-  - Boot
+  - {t: Boot, type: held}
   - '&studio_unlock'
   - ''
   - ''
@@ -166,9 +166,14 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [16, 15]
+  k: (
+- p: [19, 20]
+  k: )
