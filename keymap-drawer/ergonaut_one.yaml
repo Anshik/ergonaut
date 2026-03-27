@@ -89,21 +89,21 @@ layers:
   NUM:
   - ''
   - ''
-  - ''
+  - PLAY PAUSE
   - Vol Up
   - ''
   - BRIGHTNESS INC
   - PAGE UP
-  - ''
+  - Ctl+PAGE UP
   - UP ARROW
   - Insert
   - ''
   - ''
   - ''
-  - ''
+  - Sft+Gui+↹
   - ⏮️
   - MUTE
-  - ''
+  - Gui+↹
   - ⏭️
   - Home
   - ←
@@ -118,7 +118,7 @@ layers:
   - ''
   - BRIGHTNESS DEC
   - PAGE DOWN
-  - ''
+  - Ctl+PAGE DOWN
   - ''
   - CAPSLOCK
   - ''
