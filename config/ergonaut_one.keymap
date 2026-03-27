@@ -71,10 +71,10 @@
         lower_layer {
             display-name = "SYM";
             bindings = <
-&kp GRAVE       &kp N1    &kp N2    &kp N3      &kp N4        &kp N5         &none      &kp N7        &kp N8  &kp N9        &kp N0     &kp RBKT
-&mt LCTRL PLUS  &kp EXCL  &kp AT    &kp HASH    &kp DLLR      &kp PRCNT      &kp CARET  &kp N4        &kp N5  &kp NUMBER_6  &kp MINUS  &mt RCTRL EQUAL
-&mt LALT EQUAL  &none     &mkp MB3  &kp DELETE  &kp CAPSLOCK  &kp BACKSPACE  &none      &kp NUMBER_1  &kp N2  &kp N3        &kp SLASH  &kp LCTRL
-                                    &trans      &trans        &trans         &trans     &kp N0        &trans
+&kp GRAVE       &kp N1    &kp N2  &kp N3      &kp N4        &kp N5         &none         &kp N7        &kp N8  &kp N9        &kp N0     &kp RBKT
+&mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH    &kp DLLR      &kp PRCNT      &kp QUESTION  &kp N4        &kp N5  &kp NUMBER_6  &kp MINUS  &mt RCTRL EQUAL
+&mt LALT EQUAL  &none     &none   &kp DELETE  &kp CAPSLOCK  &kp BACKSPACE  &none         &kp NUMBER_1  &kp N2  &kp N3        &kp SLASH  &kp LCTRL
+                                  &trans      &trans        &trans         &trans        &kp N0        &trans
             >;
         };
 
@@ -100,10 +100,10 @@
 
         app_and_f {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans  &trans       &trans           &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(TAB)  &kp LG(LS(TAB))  &trans  &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans           &trans  &trans   &trans
-                        &trans  &trans  &trans  &trans  &trans       &trans
+&trans  &kp F1  &kp F2     &kp F3     &kp F4     &kp F5  &trans  &trans       &trans           &trans  &trans   &trans
+&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans  &trans  &kp LG(TAB)  &kp LG(LS(TAB))  &trans  &kp F12  &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans       &trans           &trans  &trans   &trans
+                           &trans     &trans     &trans  &trans  &trans       &trans
             >;
         };
     };
