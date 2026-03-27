@@ -70,7 +70,7 @@ layers:
   - {t: '=', h: Ctrl}
   - {t: '=', h: Alt}
   - ''
-  - ''
+  - '&mkp MB3'
   - DELETE
   - CAPSLOCK
   - BACKSPACE
