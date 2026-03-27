@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ↹, h: NUM}
+  - {t: ↹, h: LEFT COMMAND}
   - Q
   - W
   - E
@@ -87,7 +87,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   NUM:
-  - {type: held}
+  - ''
   - ''
   - ''
   - Vol Up
@@ -125,12 +125,12 @@ layers:
   - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJ:
-  - {t: Boot, type: held}
+  - Boot
   - '&studio_unlock'
   - ''
   - ''
@@ -168,7 +168,7 @@ layers:
   - Reset
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
