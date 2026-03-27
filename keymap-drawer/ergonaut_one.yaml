@@ -40,8 +40,8 @@ layers:
   - LEFT ALT
   - {t: ␣, h: SYM}
   - {t: ⏎, h: NUM}
-  - {t: ␣, h: SYM}
-  - {t: ␣, h: NUM}
+  - app_and_f
+  - ␣
   - BACKSPACE
   SYM:
   - '`'
@@ -100,10 +100,10 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+Gui+↹
+  - ''
   - ⏮️
   - MUTE
-  - Gui+↹
+  - ''
   - ⏭️
   - Home
   - ←
@@ -170,6 +170,49 @@ layers:
   - {type: held}
   - {type: held}
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  app_and_f:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+↹
+  - Gui+Sft+↹
+  - {t: ▽, type: trans}
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
