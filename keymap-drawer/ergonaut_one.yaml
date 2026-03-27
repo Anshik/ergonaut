@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ']', h: Gui}
-  - A
+  - {t: ↹, h: Gui}
+  - Q
   - W
   - E
   - R
@@ -13,9 +13,9 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - {t: ESCAPE, h: LEFT COMMAND}
   - A
-  - R
+  - S
   - D
   - F
   - G
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -37,25 +37,25 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: ↹, h: NUM}
-  - {t: ␣, h: Shift}
+  - {t: LEFT ALT, h: NUM}
+  - {t: ␣, h: SYM}
   - {t: ⏎, h: SYM}
-  - {t: Esc, h: SYM}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: NUM}
+  - {t: ␣, h: NUM}
+  - {t: ␣, h: NUM}
+  - BACKSPACE
   SYM:
-  - {t: F1, h: Gui}
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ']'
   - {t: +, h: Ctrl}
   - '!'
   - '@'
@@ -63,65 +63,65 @@ layers:
   - $
   - '%'
   - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - '1'
-  - '2'
-  - '3'
   - '4'
   - '5'
   - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - Alt
-  - {t: ▽, type: trans}
+  - '-'
+  - {t: '=', h: Ctrl}
+  - {t: '=', h: Alt}
+  - ''
+  - ''
+  - DELETE
+  - CAPSLOCK
+  - BACKSPACE
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - Ctrl
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   NUM:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
+  - ''
+  - ''
+  - ''
   - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
+  - ''
+  - BRIGHTNESS INC
+  - PAGE UP
+  - ''
+  - UP ARROW
   - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
+  - ''
+  - ''
+  - ''
+  - ''
+  - ⏮️
+  - MUTE
+  - ''
+  - ⏭️
+  - Home
+  - ←
+  - DOWN ARROW
+  - →
   - End
-  - ↓
-  - Page Down
-  - Pause Break
+  - ''
+  - ''
+  - ''
+  - ''
+  - VOLUME DOWN
+  - ''
+  - BRIGHTNESS DEC
+  - PAGE DOWN
+  - ''
+  - ''
+  - CAPSLOCK
+  - ''
   - Alt
   - {type: held}
   - {t: ▽, type: trans}
@@ -167,8 +167,8 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - ''
   - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

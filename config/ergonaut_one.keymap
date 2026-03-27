@@ -27,30 +27,30 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-&mt LGUI TAB             &kp Q  &kp W  &kp E      &kp R            &kp T      &kp Y        &kp U            &kp I            &kp O    &kp P     &kp LBKT
-&mt LEFT_COMMAND ESCAPE  &kp A  &kp S  &kp D      &kp F            &kp G      &kp H        &kp J            &kp K            &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LEFT_SHIFT MINUS     &kp Z  &kp X  &kp C      &kp V            &kp B      &kp N        &kp M            &kp COMMA        &kp DOT  &kp FSLH  &mt RALT BSLH
-                                       &lt 2 TAB  &mt LSHFT SPACE  &lt 1 RET  &lt 2 SPACE  &mt RSHFT SPACE  &lt 2 BACKSPACE
+&mt LGUI TAB             &kp Q  &kp W  &kp E           &kp R        &kp T      &kp Y        &kp U        &kp I          &kp O    &kp P     &kp LBKT
+&mt LEFT_COMMAND ESCAPE  &kp A  &kp S  &kp D           &kp F        &kp G      &kp H        &kp J        &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
+&kp LEFT_SHIFT           &kp Z  &kp X  &kp C           &kp V        &kp B      &kp N        &kp M        &kp COMMA      &kp DOT  &kp FSLH  &mt RALT BSLH
+                                       &lt 2 LEFT_ALT  &lt 1 SPACE  &lt 1 RET  &lt 2 SPACE  &lt 2 SPACE  &kp BACKSPACE
             >;
         };
 
         lower_layer {
             display-name = "SYM";
             bindings = <
-&kp N1          &kp N2    &kp N3  &kp N4    &kp N5    &kp N6     &kp N7     &kp N8    &kp N9    &kp N0    &kp F11   &kp RBKT
-&mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-&mt LALT EQUAL  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp RALT
-                                  &trans    &trans    &trans     &trans     &trans    &trans
+&kp GRAVE       &kp N1    &kp N2  &kp N3      &kp N4        &kp N5         &none      &kp N7        &kp N8  &kp N9        &kp N0     &kp RBKT
+&mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH    &kp DLLR      &kp PRCNT      &kp CARET  &kp N4        &kp N5  &kp NUMBER_6  &kp MINUS  &mt RCTRL EQUAL
+&mt LALT EQUAL  &none     &none   &kp DELETE  &kp CAPSLOCK  &kp BACKSPACE  &none      &kp NUMBER_1  &kp N2  &kp N3        &kp SLASH  &kp LCTRL
+                                  &trans      &trans        &trans         &trans     &kp N0        &trans
             >;
         };
 
         raise_layer {
             display-name = "NUM";
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp C_VOL_UP       &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp C_MUTE         &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp UP     &kp RIGHT  &kp INS          &mt RCTRL K_APP
-&kp LALT         &kp KP_N0        &kp KP_N1  &kp C_VOLUME_DOWN  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp DOWN   &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
-                                             &trans             &trans     &trans        &trans        &trans    &trans
+&none  &none  &none       &kp C_VOL_UP       &none   &kp C_BRIGHTNESS_INC  &kp PAGE_UP    &none     &kp UP_ARROW    &kp INS       &none    &none
+&none  &none  &kp C_PREV  &kp C_MUTE         &none   &kp C_NEXT            &kp HOME       &kp LEFT  &kp DOWN_ARROW  &kp RIGHT     &kp END  &none
+&none  &none  &none       &kp C_VOLUME_DOWN  &none   &kp C_BRIGHTNESS_DEC  &kp PAGE_DOWN  &none     &none           &kp CAPSLOCK  &none    &kp RALT
+                          &trans             &trans  &trans                &trans         &trans    &trans
             >;
         };
 
