@@ -28,11 +28,30 @@
         left_par {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 15>;
+            timeout-ms = <30>;
         };
 
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
+            timeout-ms = <30>;
+        };
+
+        lang_change {
+            bindings = <&kp CAPS>;
+            key-positions = <13 14>;
+            timeout-ms = <30>;
+        };
+
+        lang_right {
+            bindings = <&kp CAPS>;
+            key-positions = <21 22>;
+        };
+
+        double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <1 2>;
+            timeout-ms = <30>;
         };
     };
 
