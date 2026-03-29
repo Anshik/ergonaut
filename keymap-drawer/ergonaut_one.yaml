@@ -181,20 +181,20 @@ layers:
   - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Scroll ↑
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Right Click
-  - Middle Click
-  - Left Click
+  - '&mkp MB3'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↹
-  - Gui+Sft+↹
-  - {t: ▽, type: trans}
+  - Scroll ←
+  - Scroll ↓
+  - Scroll →
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
