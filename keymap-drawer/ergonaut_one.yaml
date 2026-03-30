@@ -59,7 +59,7 @@ layers:
   - {t: +, h: Ctrl}
   - LEFT COMMAND
   - ↹
-  - '#'
+  - '&mkp MB3'
   - $
   - '%'
   - '?'
