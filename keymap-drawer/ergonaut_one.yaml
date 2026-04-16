@@ -180,9 +180,9 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Scroll ←
   - Scroll ↑
-  - {t: ▽, type: trans}
+  - Scroll →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -192,9 +192,9 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Scroll ←
+  - LEFT ARROW
   - Scroll ↓
-  - Scroll →
+  - RIGHT ARROW
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

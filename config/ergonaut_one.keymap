@@ -108,8 +108,8 @@
 
         app_and_f {
             bindings = <
-&trans  &kp F1  &kp F2     &kp F3    &kp F4    &kp F5  &trans  &trans          &msc SCRL_UP    &trans           &trans   &trans
-&trans  &trans  &mkp RCLK  &mkp MB3  &mkp MB1  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F12  &trans
+&trans  &kp F1  &kp F2     &kp F3    &kp F4    &kp F5  &trans  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &trans   &trans
+&trans  &trans  &mkp RCLK  &mkp MB3  &mkp MB1  &trans  &trans  &kp LEFT_ARROW  &msc SCRL_DOWN  &kp RIGHT_ARROW  &kp F12  &trans
 &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans          &trans          &trans           &trans   &trans
                            &trans    &trans    &trans  &trans  &trans          &trans
             >;
