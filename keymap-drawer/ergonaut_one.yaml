@@ -225,6 +225,6 @@ combos:
 - p: [21, 22]
   k: Caps Lock
 - p: [1, 2]
-  k: '"'
+  k: Sft+2
 - p: [7, 8]
-  k: ':'
+  k: Sft+7
