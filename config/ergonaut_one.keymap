@@ -61,6 +61,11 @@
             bindings = <&kp LS(NUMBER_7)>;
             key-positions = <7 8>;
         };
+
+        colon-rus {
+            bindings = <&kp LS(NUMBER_6)>;
+            key-positions = <18 19>;
+        };
     };
 
     keymap {

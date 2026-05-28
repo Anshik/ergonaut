@@ -228,3 +228,5 @@ combos:
   k: Sft+2
 - p: [7, 8]
   k: Sft+7
+- p: [18, 19]
+  k: Sft+6
