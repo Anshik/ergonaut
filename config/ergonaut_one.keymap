@@ -9,11 +9,14 @@
 #define ADJ 3
 
 &lt {
-    quick-tap-ms = <150>;
-    tapping-term-ms = <250>;
+    quick-tap-ms = <0>;
+    tapping-term-ms = <200>;
 };
 
-&mt { quick-tap-ms = <200>; };
+&mt { 
+    quick-tap-ms = <200>;
+    tapping-term-ms = <180>;
+};
 
 / {
     conditional_layers {
@@ -60,11 +63,13 @@
         colon {
             bindings = <&kp LS(NUMBER_7)>;
             key-positions = <7 8>;
+            timeout-ms = <30>;
         };
 
         colon-rus {
             bindings = <&kp LS(NUMBER_6)>;
             key-positions = <18 19>;
+            timeout-ms = <30>;
         };
     };
 
