@@ -8,6 +8,11 @@
 #define RSE 2
 #define ADJ 3
 
+&kscan0 {
+    debounce-press-ms = <1>;
+    debounce-release-ms = <25>;
+};
+
 &lt {
     quick-tap-ms = <0>;
     tapping-term-ms = <200>;
